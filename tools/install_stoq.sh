@@ -30,6 +30,7 @@
 #  export PS1='[$(echo $STOQ_BRANCH)]\u@$ENVNAME$(__git_ps1 "(%s)"):\w\$ '
 
 mkdir ~/bin
-wget https://raw.github.com/stoq/git-stoq/master/git-stoq -O ~/bin
+wget https://raw.github.com/stoq/git-stoq/master/git-stoq -O ~/bin/git-stoq
 chmod +x ~/bin/git-stoq
-./git-stoq --setup
+./bin/git-stoq --setup
+
